@@ -7,6 +7,9 @@
 		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-planet-5377-js-translation"
 	},
 	"scripts": {
-		"site:custom" : []
+		"core:language": "wp language core install hu_HU; wp language core activate hu_HU",
+		"site:custom": [
+			"@core:language"
+		]
 	}
 }
