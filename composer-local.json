@@ -3,7 +3,7 @@
 	"description": "Greenpeace P4 test-leda",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "7",
+		"greenpeace/planet4-master-theme": "dev-master",
 		"greenpeace/planet4-plugin-gutenberg-blocks": "7"
 	},
 	"scripts": {},
@@ -19,30 +19,6 @@
 				"dist": {
 					"type": "zip",
 					"url": "https://storage.googleapis.com/planet4-packages/planet4-plugin-gutenberg-blocks/a1f09b6bf2a23d072762cdd0ed00a4fe2189cf62.zip"
-				}
-			}
-		},
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-master-theme",
-				"type": "wordpress-theme",
-				"autoload": {
-					"psr-4": {
-						"P4\\MasterTheme\\": "src/"
-					}
-				},
-				"extra": {
-					"installer-paths": {
-						"vendor/plugins/{$name}/": [
-							"type:wordpress-plugin"
-						]
-					}
-				},
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/55e78d4a1e84a08890677f7476021a1af1a3c7de.zip"
 				}
 			}
 		}
