@@ -6,6 +6,7 @@
 		"greenpeace/planet4-master-theme": "dev-search-results-ui-changes-6727",
 		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-master"
 	},
+	"data_from": "international",
 	"scripts": {},
 	"repositories": []
 }
