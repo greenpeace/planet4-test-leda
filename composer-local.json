@@ -3,49 +3,10 @@
 	"description": "Greenpeace P4 test-leda",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "7",
-		"greenpeace/planet4-plugin-gutenberg-blocks": "7"
+		"greenpeace/planet4-master-theme": "dev-master",
+		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-page-header-parallax"
 	},
 	"data_from": "international",
 	"scripts": {},
-	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-master-theme",
-				"type": "wordpress-theme",
-				"autoload": {
-					"psr-4": {
-						"P4\\MasterTheme\\": "src/"
-					}
-				},
-				"extra": {
-					"installer-paths": {
-						"vendor/plugins/{$name}/": [
-							"type:wordpress-plugin"
-						]
-					}
-				},
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/0618e71e5b3672c26c8c28e414ba2b0b8bdfb9ad.zip"
-				}
-			}
-		},
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-plugin-gutenberg-blocks",
-				"type": "wordpress-plugin",
-				"autoload": null,
-				"extra": null,
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-plugin-gutenberg-blocks/41044f4cc9e80df65c312c17a7b2da3652cad959.zip"
-				}
-			}
-		}
-	]
+	"repositories": []
 }
