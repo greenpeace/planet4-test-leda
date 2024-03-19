@@ -38,6 +38,7 @@ job_environments:
     APP_HOSTPATH: test-leda
     CONTAINER_PREFIX: planet4-test-leda
     WP_DB_NAME_PREFIX: planet4-test-leda_wordpress
+    GIT_REF: update/timber-composer
   develop_environment: &develop_environment
     APP_ENVIRONMENT: development
     APP_HOSTNAME: www-dev.greenpeace.org
