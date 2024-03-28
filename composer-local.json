@@ -5,7 +5,7 @@
 	"require": {
 		"wpackagist-plugin/query-monitor": "3.15.0",
 		"greenpeace/planet4-master-theme": "7",
-		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-main"
+		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-update/timber-composer-7390"
 	},
 	"repositories": [
 		{
