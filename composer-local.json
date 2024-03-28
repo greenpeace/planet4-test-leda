@@ -3,6 +3,7 @@
 	"description": "Greenpeace P4 test-leda",
 	"license": "MIT",
 	"require": {
+    "wpackagist-plugin/query-monitor": "3.15.0",
 		"greenpeace/planet4-master-theme": "7",
 		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-main"
 	},
