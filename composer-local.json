@@ -3,6 +3,7 @@
 	"description": "Greenpeace P4 test-leda",
 	"license": "MIT",
 	"require": {
+    "wpackagist-plugin/query-monitor": "3.17.2",
 		"greenpeace/planet4-master-theme": "7"
 	},
 	"repositories": [
