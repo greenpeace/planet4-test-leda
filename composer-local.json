@@ -3,7 +3,7 @@
 	"description": "Greenpeace P4 test-leda",
 	"license": "MIT",
 	"require": {
-    "wpackagist-plugin/query-monitor": "3.17.2",
+		"wpackagist-plugin/query-monitor": "3.17.2",
 		"greenpeace/planet4-master-theme": "7"
 	},
 	"repositories": [
@@ -21,7 +21,7 @@
 				"version": 7,
 				"dist": {
 					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/bd84506538e3645fcf77aa97ec4f77eedbe5f743.zip"
+					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/5dd372bb0fe1dc42df8363e40d9b7dcb562d6197.zip"
 				}
 			}
 		}
