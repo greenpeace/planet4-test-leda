@@ -48,6 +48,7 @@ job_environments:
     HELM_RELEASE: planet4-test-leda
     WP_DB_NAME: planet4-test-leda_wordpress_develop
     WP_STATELESS_BUCKET: planet4-test-leda-stateless-develop
+    MIN_REPLICA_COUNT: 2
 
 
 commands:
