@@ -3,7 +3,11 @@
 	"description": "Greenpeace P4 test-leda",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "7"
+		"greenpeace/planet4-master-theme": "7",
+    "wpackagist-plugin/elasticpress":"5.3.3"
+	},
+  "extra": {
+		"wp-version": "7.0.2"
 	},
 	"repositories": [
 		{
