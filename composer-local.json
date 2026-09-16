@@ -3,10 +3,30 @@
 	"description": "Greenpeace P4 test-leda",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "dev-main",
+		"greenpeace/planet4-master-theme": "7",
 		"wpackagist-plugin/elasticpress": "5.3.3"
 	},
 	"extra": {
 		"wp-version": "7.0.2"
-	}
+	},
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "greenpeace/planet4-master-theme",
+				"type": "wordpress-theme",
+				"autoload": {
+					"psr-4": {
+						"P4\\MasterTheme\\": "src/"
+					}
+				},
+				"extra": null,
+				"version": 7,
+				"dist": {
+					"type": "zip",
+					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/b6c82ea0aec979a4b347b4cf1d590e5d2b7f0729.zip"
+				}
+			}
+		}
+	]
 }
